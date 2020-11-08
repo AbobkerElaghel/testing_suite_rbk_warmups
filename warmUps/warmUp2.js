@@ -8,7 +8,7 @@ function cube(x) {
 // 2 - Write a function sameLength that accepts two strings as arguments, and returns true if those strings have the same length, and false otherwise.
 
 function sameLength(string1, string2) {
-    // your code here
+    return string1.length === string2.length;
 }
 
 // 3 - Write a function called scoreToGrade that accepts a number as a parameter and returns a string representing a letter grade corresponding to that score.
