@@ -1,0 +1,22 @@
+{
+  "name": "testing_suite_rbk_warmups",
+  "version": "1.0.0",
+  "description": "this repo contains all the tests to validate the warmups for the students, test are written js/jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbobkerElaghel/testing_suite_rbk_warmups.git"
+  },
+  "author": "Abobker Elaghel (Tech Support Lead) RBK Tunisia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbobkerElaghel/testing_suite_rbk_warmups/issues"
+  },
+  "homepage": "https://github.com/AbobkerElaghel/testing_suite_rbk_warmups#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
