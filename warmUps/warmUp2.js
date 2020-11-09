@@ -13,8 +13,25 @@ function sameLength(string1, string2) {
 
 // 3 - Write a function called scoreToGrade that accepts a number as a parameter and returns a string representing a letter grade corresponding to that score.
 
-function scoreToGrade(number) {
-    // your code here
+function scoreToGrade(score){
+    if(score>100 || score<0){
+        return "SCORE INVALID"
+    }
+    else if(score>=90){
+        return "A";
+    }
+    else if(score>=80){
+        return "B";
+    }
+    else if(score>=70){
+        return "C";
+    }
+    else if(score>=65){
+        return "D";
+    }
+    else if(score<65){
+        return "F"
+    }
 }
 // USE RECURSION
 // Repeating a String n Times: Let's write a function called repeatString that takes two parameters: a string str, which is the string to be repeated, and count -- a number representing how many times the string str should be repeated
@@ -25,6 +42,9 @@ function scoreToGrade(number) {
 
 function repeatString(str, count) {
     // TODO: your code here
+    if (count===0){
+        return '';
+    } return str + repeatString(str, count-1); // TODO: your code here
 }
 
 
@@ -34,3 +54,4 @@ module.exports.sameLength = sameLength; //
 module.exports.scoreToGrade = scoreToGrade; //
 module.exports.repeatString = repeatString; //
 // // // // // // // // // // // // // // //
+
