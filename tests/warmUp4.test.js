@@ -1,5 +1,19 @@
 const {productOf3, multiply, fahrenheitToCelsius, sqArea} = require('../warmUps/warmUp4');
 
+expect.extend({
+    toBeZeroOrStringOrUndefined(received){
+        if(typeof received === 'undefined' || typeof received === 'string' || received === 0){
+            return {
+                message: () => `expected ${received} to be string, undefined or 0`,
+                pass: true
+            }
+    }else {
+            return {
+                message: () => `expected ${received} to be string, undefined or 0`,
+                pass: false
+            }
+        }
+}});
 
 beforeAll(() => {
     test('productOf3 should be defined', () => {
@@ -201,6 +215,9 @@ describe('function sqArea', () => {
         expect(actual).toBe(expected);
     });
 
-
+    test('should return Zero, string Or undefined for not providing input', () => {
+        const actual = sqArea();
+        expect(actual).toBeZeroOrStringOrUndefined();
+    });
 });
 
