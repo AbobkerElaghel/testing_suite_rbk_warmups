@@ -43,7 +43,7 @@ function scoreToGrade(score){
 function repeatString(str, count) {
     // TODO: your code here
     if (count===0){
-        return '';
+        return "";
     } return str + repeatString(str, count-1); // TODO: your code here
 }
 
