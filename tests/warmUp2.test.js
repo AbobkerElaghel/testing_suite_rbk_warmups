@@ -186,14 +186,46 @@ describe('function repeatString', () => {
     });
 
     test('should be a recursive function', () => {
-        const mockRepeatString = jest.fn(repeatString);
-        mockRepeatString('', 3);
-        expect(mockRepeatString).toBeCalledTimes(3);
-
-        // const spy = jest.spyOn({repeatString}, 'repeatString');
-        // repeatString('', 3);
-        // expect(spy).toBeCalledTimes(3);
+        // test is not granted to work in all logically possible cases.
+        // but will prove that their exists a recursive call to the function in most cases.
+        const functionString = repeatString.toString().replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$/gm, '');
+        const isRecursive = functionString.includes(repeatString.name, (8 + repeatString.name.length));
+        expect(isRecursive).toBe(true);
     });
+
+    test('should not contain loops', () => {
+        // test is not granted to work in all logically possible cases, but it will hold true for most cases.
+        const functionString = repeatString.toString().replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/|"[\s\S]*?"|'[\s\S]*?'.*$/gm, '');
+        const haveFor = functionString.includes('for');
+        const haveWhile = functionString.includes('while');
+        const haveDo = functionString.includes('do');
+
+        expect(haveFor).toBe(false);
+        expect(haveWhile).toBe(false);
+        expect(haveDo).toBe(false);
+    });
+
+    test('should return abcabcabc for values (abc, 3)', () => {
+        const input = ['abc', 3];
+        const expected = 'abcabcabc';
+        const actual = repeatString(input[0], input[1]);
+        expect(actual).toBe(expected);
+    });
+
+    test('should return a for values (a, 1)', () => {
+        const input = ['a', 1];
+        const expected = 'a';
+        const actual = repeatString(input[0], input[1]);
+        expect(actual).toBe(expected);
+    });
+
+    test('should return a for values ("", 0)', () => {
+        const input = ['', 1];
+        const expected = '';
+        const actual = repeatString(input[0], input[1]);
+        expect(actual).toBe(expected);
+    });
+
 });
 
 
