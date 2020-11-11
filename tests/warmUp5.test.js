@@ -206,7 +206,6 @@ describe('function decimals', () => {
         expect(actual).toBe(expected);
     });
 
-    //decimals(-2.100212, 1);
     test('should return "-2.1", for input -2.100212, 1', () => {
         const input = [-2.100212, 1];
         const expected = "-2.1";
