@@ -1,4 +1,6 @@
 const {cube, sameLength, scoreToGrade, repeatString} = require('../warmUps/warmUp2');
+const isIterative = require('../specialTests/isIterative');
+const isRecursive = require('../specialTests/isRecursive');
 
 // BETA Version, if you have any feedback, or you notice that something needs fixing or changing please contact me
 // abobker.elaghel@rbk.tn
@@ -188,21 +190,23 @@ describe('function repeatString', () => {
     test('should be a recursive function', () => {
         // test is not granted to work in all logically possible cases.
         // but will prove that their exists a recursive call to the function in most cases.
-        const functionString = repeatString.toString().replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$/gm, '');
-        const isRecursive = functionString.includes(repeatString.name, (8 + repeatString.name.length));
-        expect(isRecursive).toBe(true);
+        // const functionString = repeatString.toString().replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$/gm, '');
+        // const isRecursive = functionString.includes(repeatString.name, (8 + repeatString.name.length));
+        // expect(isRecursive).toBe(true);
+        expect(isRecursive(repeatString)).toBe(true);
     });
 
     test('should not contain loops', () => {
         // test is not granted to work in all logically possible cases, but it will hold true for most cases.
-        const functionString = repeatString.toString().replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/|"[\s\S]*?"|'[\s\S]*?'.*$/gm, '');
-        const haveFor = functionString.includes('for');
-        const haveWhile = functionString.includes('while');
-        const haveDo = functionString.includes('do');
-
-        expect(haveFor).toBe(false);
-        expect(haveWhile).toBe(false);
-        expect(haveDo).toBe(false);
+        // const functionString = repeatString.toString().replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/|"[\s\S]*?"|'[\s\S]*?'.*$/gm, '');
+        // const haveFor = functionString.includes('for');
+        // const haveWhile = functionString.includes('while');
+        // const haveDo = functionString.includes('do');
+        //
+        // expect(haveFor).toBe(false);
+        // expect(haveWhile).toBe(false);
+        // expect(haveDo).toBe(false);
+        expect(isIterative(repeatString)).toBe(false)
     });
 
     test('should return abcabcabc for values (abc, 3)', () => {

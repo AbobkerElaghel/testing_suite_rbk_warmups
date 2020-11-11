@@ -5,8 +5,8 @@
  *   - returns whichever number is the greater (higher) number.
  *  ex greaterNum(5, 10) => "The greater number of 5 and 10 is 10."
  *
- * @param x
- * @param y
+ * @param {number} x
+ * @param {number} y
  * @return {string}
  */
 function greaterNum(x, y) {
@@ -27,7 +27,7 @@ function greaterNum(x, y) {
 function isEven(x, y) {
     const result = [];
     for (let i = x; i <= y; i++) {
-        if(i / 2 === 0){
+        if(i % 2 === 0){
             result.push(i);
         }
     }
@@ -40,8 +40,9 @@ function isEven(x, y) {
 // ex sum(1,5) => 15
 function sum(x, y) {
     let result = 0;
-    for (let i = x; i <= y; i++) {
-        result+=i;
+    while (x <= y){
+        result+=x;
+        x++;
     }
     return result;
 }
@@ -74,8 +75,7 @@ function factorial(n) {
 function decimals(number, decimalPlaces) {
     if(typeof number !== 'number' || typeof decimalPlaces !== 'number')
         return false;
-
-    
+    return number.toFixed(decimalPlaces);
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -85,5 +85,4 @@ module.exports.isEven = isEven; //
 module.exports.sum = sum; //
 module.exports.factorial = factorial; //
 module.exports.decimals = decimals; //
-
 // // // // // // // // // // // // // // //

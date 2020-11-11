@@ -126,7 +126,15 @@ describe('function multiply', () => {
 });
 
 describe('function fahrenheitToCelsius', () => {
+
+    //
+    // tolerance level for floating point number is 0.0001
+    //
     const TOLERANCE_LEVEL = 0.0001;
+    //
+    // tolerance level for floating point number is 0.0001
+    //
+
     test('should accept one parameters', () => {
         const numberOfArguments = fahrenheitToCelsius.length;
         expect(numberOfArguments).toBe(1);
@@ -136,7 +144,6 @@ describe('function fahrenheitToCelsius', () => {
         expect(fahrenheitToCelsius(1)).toStrictEqual(expect.any(Number));
     });
 
-    // tolerance level for floating point number is 0.000001
     test('should return -17.7778 for input 0', () => {
         const input = 0;
         const expected = -17.777778;
