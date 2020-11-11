@@ -165,6 +165,52 @@ describe('function factorial', () => {
     });
 });
 
-describe('', function () {
+describe('function decimals', () => {
+    test('should accept two parameters', () => {
+        const numberOfArguments = decimals.length;
+        expect(numberOfArguments).toBe(2);
+    });
 
+    test('should return a string or boolean', () => {
+        expect(decimals(0,0)).toStrictEqual(expect.any(String));
+        expect(decimals()).toBe(false);
+    });
+
+    test('should return "123.14" or "123.13", for input 123.135, 2', () => {
+        const input = [123.135, 2];
+        const expected1 = "123.14";
+        const expected2 = "123.13";
+        const actual = decimals(input[0], input[1]);
+        expect(actual === expected1 || actual === expected2).toBe(true);
+    });
+
+    test('should return false, for input 123.135, null', () => {
+        const input = 123.135;
+        const expected = false;
+        const actual = decimals(input[0]);
+        expect(actual).toBe(expected);
+    });
+
+    test('should return false, for input null, 2', () => {
+        const input = 2;
+        const expected = false;
+        const actual = decimals(undefined, input);
+        expect(actual).toBe(expected);
+    });
+
+
+    test('should return "2.100", for input 2.100212, 3', () => {
+        const input = [2.100212, 3];
+        const expected = "2.100";
+        const actual = decimals(input[0], input[1]);
+        expect(actual).toBe(expected);
+    });
+
+    //decimals(-2.100212, 1);
+    test('should return "-2.1", for input -2.100212, 1', () => {
+        const input = [-2.100212, 1];
+        const expected = "-2.1";
+        const actual = decimals(input[0], input[1]);
+        expect(actual).toBe(expected);
+    });
 });
