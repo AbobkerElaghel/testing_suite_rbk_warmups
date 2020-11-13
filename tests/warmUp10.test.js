@@ -1,4 +1,6 @@
 const {greatestCommonDivisor,sum} = require('../warmUps/warmUp10');
+const isRecursive = require('../specialTests/isRecursive');
+const isIterative = require('../specialTests/isIterative');
 
 beforeAll(() => {
     test('objKey should be defined', () => {
@@ -67,6 +69,9 @@ describe('function greatestCommonDivisor', () => {
 });
 
 
+
+// isRecursive
+// isIterative
 describe('function sum', () => {
     test('should accept two parameters', () => {
         const numberOfArguments = sum.length;
@@ -77,5 +82,39 @@ describe('function sum', () => {
         expect(sum(1,2)).toStrictEqual(expect.any(Number));
     });
 
+    test('should be a recursive function', () => {
+        expect(isRecursive(sum)).toBe(true);
+    });
 
+    test('should not contain any looping structures', () => {
+        expect(isIterative(sum)).toBe(false);
+    });
+
+    test('should return 15 for inputs 10, 5', () => {
+        const input = [10,5];
+        const expected = 15;
+        const actual = sum(input[0], input[1]);
+        expect(actual).toBe(expected);
+    });
+
+    test('should return -5 for inputs -10, 5', () => {
+        const input = [-10,5];
+        const expected = -5;
+        const actual = sum(input[0], input[1]);
+        expect(actual).toBe(expected);
+    });
+
+    test('should return 5 for inputs 10, -5', () => {
+        const input = [10,-5];
+        const expected = 5;
+        const actual = sum(input[0], input[1]);
+        expect(actual).toBe(expected);
+    });
+
+    test('should return -15 for inputs -10, -5', () => {
+        const input = [-10,-5];
+        const expected = -15;
+        const actual = sum(input[0], input[1]);
+        expect(actual).toBe(expected);
+    });
 });
