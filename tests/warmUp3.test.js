@@ -1,4 +1,4 @@
-const {larger, smaller, counting ,meetNGreet, shortestWord} = require('../warmUps/warmUp3');
+const {larger, smaller, counting ,meetNGreet, shortestWord} = require('../warmUpsSolutions/warmUp3');
 
 // BETA Version, if you have any feedback, or you notice that something needs fixing or changing please contact me
 // abobker.elaghel@rbk.tn

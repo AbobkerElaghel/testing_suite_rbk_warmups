@@ -1,4 +1,4 @@
-const {greaterNum, isEven, sum, factorial, decimals} = require('../warmUps/warmUp5');
+const {greaterNum, isEven, sum, factorial, decimals} = require('../warmUpsSolutions/warmUp5');
 const isRecursive = require('../specialTests/isRecursive');
 const containFor = require('../specialTests/containFor');
 const containWhile = require('../specialTests/containWhile');

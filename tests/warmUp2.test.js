@@ -1,4 +1,4 @@
-const {cube, sameLength, scoreToGrade, repeatString} = require('../warmUps/warmUp2');
+const {cube, sameLength, scoreToGrade, repeatString} = require('../warmUpsSolutions/warmUp2');
 const isIterative = require('../specialTests/isIterative');
 const isRecursive = require('../specialTests/isRecursive');
 

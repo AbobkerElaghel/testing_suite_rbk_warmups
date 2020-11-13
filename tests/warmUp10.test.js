@@ -1,4 +1,4 @@
-const {greatestCommonDivisor,sum} = require('../warmUps/warmUp10');
+const {greatestCommonDivisor,sum} = require('../warmUpsSolutions/warmUp10');
 const isRecursive = require('../specialTests/isRecursive');
 const isIterative = require('../specialTests/isIterative');
 
@@ -69,9 +69,6 @@ describe('function greatestCommonDivisor', () => {
 });
 
 
-
-// isRecursive
-// isIterative
 describe('function sum', () => {
     test('should accept two parameters', () => {
         const numberOfArguments = sum.length;

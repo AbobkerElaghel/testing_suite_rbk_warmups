@@ -1,4 +1,4 @@
-const {productOf3, multiply, fahrenheitToCelsius, sqArea} = require('../warmUps/warmUp4');
+const {productOf3, multiply, fahrenheitToCelsius, sqArea} = require('../warmUpsSolutions/warmUp4');
 
 expect.extend({
     toBeZeroOrStringOrUndefined(received){

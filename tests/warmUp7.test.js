@@ -1,4 +1,4 @@
-const {helloWorld, laugh, reverseArray} = require('../warmUps/warmUp7');
+const {helloWorld, laugh, reverseArray} = require('../warmUpsSolutions/warmUp7');
 const containReverse = require('../specialTests/containReverse');
 
 beforeAll(() => {
