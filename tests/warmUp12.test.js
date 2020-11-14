@@ -16,7 +16,7 @@ describe('function sameLength', () => {
         expect(numberOfArguments).toBe(1);
     });
 
-    test('should return a value', () => {
+    test('should return an Array', () => {
         expect(sameLength(['1'])).toStrictEqual(expect.any(Array));
     });
 
