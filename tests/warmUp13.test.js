@@ -10,7 +10,7 @@ describe('function dominator', () => {
         expect(numberOfArguments).toBe(1);
     });
 
-    test('should return an Array', () => {
+    test('should return a number', () => {
         expect(dominator([])).toStrictEqual(expect.any(Number));
     });
 

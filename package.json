@@ -10,16 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/AbobkerElaghel/testing_suite_rbk_warmups.git"
   },
-  "author": "Abobker Elaghel (Tech Support Lead) RBK Tunisia",
+  "author": "Abobker Elaghel (Tech Support) RBK Tunisia",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AbobkerElaghel/testing_suite_rbk_warmups/issues"
   },
   "homepage": "https://github.com/AbobkerElaghel/testing_suite_rbk_warmups#readme",
   "devDependencies": {
-    "jest": "^26.6.3"
-  },
-  "dependencies": {
+    "jest": "^26.6.3",
     "jest-extended": "^0.11.5"
   }
 }
