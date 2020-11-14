@@ -1,0 +1,4 @@
+{
+  "name": "testing_suite_rbk_warmups",
+  "setupFilesAfterEnv": ["jest-extended"]
+}

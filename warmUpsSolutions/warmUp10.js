@@ -47,8 +47,6 @@ function greatestCommonDivisor(num1, num2) {
  * 2-Write a function called (sum) that accepts two numbers as parameters, and sum them together but without summing them together directly
  * you can only add one at each summation, you'll need to use recursion in this.
  *
- *
- *
  * @param {number} x
  * @param {number} y
  * @return {number}
