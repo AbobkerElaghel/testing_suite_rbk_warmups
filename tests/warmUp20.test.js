@@ -5,7 +5,7 @@ describe('function cyclops', () => {
         expect(cyclops).toBeDefined();
     });
 
-    test('should accept two parameters', () => {
+    test('should accept one parameters', () => {
         const numberOfArguments = cyclops.length;
         expect(numberOfArguments).toBe(1);
     });
