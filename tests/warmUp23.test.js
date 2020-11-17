@@ -17,35 +17,35 @@ describe('function digital_root', () => {
     test('should return 7 for input = 16', () => {
         const input = 16;
         const expected = 7;
-        let actual = digital_root(input);
+        const actual = digital_root(input);
         expect(actual).toBe(expected);
     });
 
     test('should return 6 for input = 942', () => {
         const input = 942;
         const expected = 6;
-        let actual = digital_root(input);
+        const actual = digital_root(input);
         expect(actual).toBe(expected);
     });
 
     test('should return 2 for input = 493193', () => {
         const input = 493193;
         const expected = 2;
-        let actual = digital_root(input);
+        const actual = digital_root(input);
         expect(actual).toBe(expected);
     });
 
     test('should return 6 for input = 132189', () => {
         const input = 132189;
         const expected = 6;
-        let actual = digital_root(input);
+        const actual = digital_root(input);
         expect(actual).toBe(expected);
     });
 
     test('should return 2 for input = 100001', () => {
         const input = 100001;
         const expected = 2;
-        let actual = digital_root(input);
+        const actual = digital_root(input);
         expect(actual).toBe(expected);
     });
 
@@ -53,19 +53,14 @@ describe('function digital_root', () => {
     test('should return 0 for input = 0', () => {
         const input = 0;
         const expected = 0;
-        let actual = digital_root(input);
+        const actual = digital_root(input);
         expect(actual).toBe(expected);
     });
 
     test('should return 10 for input = 111111111', () => {
         const input = 111111111;
         const expected = 9;
-        let actual = digital_root(input);
+        const actual = digital_root(input);
         expect(actual).toBe(expected);
     });
 });
-
-// 16
-// 942
-// 132189
-// 493193
