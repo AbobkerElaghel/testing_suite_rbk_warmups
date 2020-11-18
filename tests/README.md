@@ -24,7 +24,8 @@ npm run testXX
 where X is the number of the warmUp.
 
 ## Quick Visualization  
-  ![](https://res.cloudinary.com/dwtaamxgn/image/upload/v1605699509/test_g1wsze.gif)
+
+![](https://res.cloudinary.com/dwtaamxgn/image/upload/v1605699509/test_g1wsze.gif)
 
 jest will run the tests for you and give you a result of the passing tests and the failing tests.
 
