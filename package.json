@@ -27,7 +27,6 @@
     "test22": "jest ./tests/warmUp22.test.js",
     "test23": "jest ./tests/warmUp23.test.js",
     "test25": "jest ./tests/warmUp25.test.js"
-
   },
   "repository": {
     "type": "git",
