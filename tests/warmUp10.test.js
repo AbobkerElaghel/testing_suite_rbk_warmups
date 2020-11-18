@@ -1,4 +1,4 @@
-const {greatestCommonDivisor,sum} = require('../warmUpsSolutions/warmUp10');
+const {greatestCommonDivisor,sum} = require('../warmUpsStaff/warmUp10');
 const isRecursive = require('../specialTests/isRecursive');
 const isIterative = require('../specialTests/isIterative');
 

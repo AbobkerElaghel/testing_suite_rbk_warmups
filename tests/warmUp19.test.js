@@ -1,4 +1,4 @@
-const comp = require('../warmUpsSolutions/warmUp19');
+const comp = require('../warmUpsStaff/warmUp19');
 
 describe('function comp', () => {
     test('comp should be defined', () => {

@@ -1,4 +1,4 @@
-const greatestProduct = require('../warmUpsSolutions/warmUp22');
+const greatestProduct = require('../warmUpsStaff/warmUp22');
 
 describe('function greatestProduct', () => {
     test('greatestProduct should be defined', () => {

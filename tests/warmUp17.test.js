@@ -1,4 +1,4 @@
-const agesToMinutes = require('../warmUpsSolutions/warmUp17');
+const agesToMinutes = require('../warmUpsStaff/warmUp17');
 
 describe('function agesToMinutes', () => {
     test('agesToMinutes should be defined', () => {

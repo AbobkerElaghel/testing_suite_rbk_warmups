@@ -1,4 +1,4 @@
-const {objKey, objLength, objSort} = require('../warmUpsSolutions/warmUp8');
+const {objKey, objLength, objSort} = require('../warmUpsStaff/warmUp8');
 
 beforeAll(() => {
     test('objKey should be defined', () => {

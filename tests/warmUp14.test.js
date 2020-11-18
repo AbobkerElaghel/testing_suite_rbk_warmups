@@ -1,4 +1,4 @@
-const findAll = require('../warmUpsSolutions/warmUp14');
+const findAll = require('../warmUpsStaff/warmUp14');
 
 describe('function findAll', () => {
     test('findAll should be defined', () => {

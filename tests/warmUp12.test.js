@@ -1,4 +1,4 @@
-const {sameLength, reverseStr} = require('../warmUpsSolutions/warmUp12');
+const {sameLength, reverseStr} = require('../warmUpsStaff/warmUp12');
 
 beforeAll(() => {
     test('sameLength should be defined', () => {

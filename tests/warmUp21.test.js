@@ -1,4 +1,4 @@
-const sumOfMinimums = require('../warmUpsSolutions/warmUp21');
+const sumOfMinimums = require('../warmUpsStaff/warmUp21');
 
 describe('function sumOfMinimums', () => {
     test('sumOfMinimums should be defined', () => {

@@ -1,4 +1,4 @@
-const dominator = require('../warmUpsSolutions/warmUp13');
+const dominator = require('../warmUpsStaff/warmUp13');
 
 describe('function dominator', () => {
     test('dominator should be defined', () => {

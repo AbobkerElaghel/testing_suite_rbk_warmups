@@ -1,4 +1,4 @@
-const {convert, first, isArray} = require('../warmUpsSolutions/warmUp9');
+const {convert, first, isArray} = require('../warmUpsStaff/warmUp9');
 
 beforeAll(() => {
     test('objKey should be defined', () => {

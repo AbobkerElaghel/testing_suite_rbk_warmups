@@ -1,4 +1,4 @@
-const digital_root = require('../warmUpsSolutions/warmUp23');
+const digital_root = require('../warmUpsStaff/warmUp23');
 
 describe('function digital_root', () => {
     test('digital_root should be defined', () => {

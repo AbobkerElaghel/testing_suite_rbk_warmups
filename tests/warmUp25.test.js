@@ -1,4 +1,4 @@
-const getRootProperty = require('../warmUpsSolutions/warmUp25');
+const getRootProperty = require('../warmUpsStaff/warmUp25');
 
 expect.extend({
     toBeStringOrNull(received){

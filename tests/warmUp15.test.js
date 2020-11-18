@@ -1,4 +1,4 @@
-const capitalize = require('../warmUpsSolutions/warmUp15');
+const capitalize = require('../warmUpsStaff/warmUp15');
 
 describe('function capitalize', () => {
     test('capitalize should be defined', () => {

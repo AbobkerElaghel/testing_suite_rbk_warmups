@@ -1,4 +1,4 @@
-const cyclops = require('../warmUpsSolutions/warmUp20');
+const cyclops = require('../warmUpsStaff/warmUp20');
 
 describe('function cyclops', () => {
     test('cyclops should be defined', () => {

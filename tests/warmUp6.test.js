@@ -1,4 +1,4 @@
-const {color, isPrime, myTrueFun, sameValue} = require('../warmUpsSolutions/warmUp6');
+const {color, isPrime, myTrueFun, sameValue} = require('../warmUpsStaff/warmUp6');
 
 beforeAll(() => {
     test('color should be defined', () => {

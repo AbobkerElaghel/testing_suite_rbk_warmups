@@ -1,4 +1,4 @@
-const intDiff = require('../warmUpsSolutions/warmUp18');
+const intDiff = require('../warmUpsStaff/warmUp18');
 
 describe('function intDiff', () => {
     test('intDiff should be defined', () => {

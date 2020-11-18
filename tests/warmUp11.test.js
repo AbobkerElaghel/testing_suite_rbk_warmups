@@ -1,4 +1,4 @@
-const {midElement,multipleEvenIndexes} = require('../warmUpsSolutions/warmUp11');
+const {midElement,multipleEvenIndexes} = require('../warmUpsStaff/warmUp11');
 
 beforeAll(() => {
     test('midElement should be defined', () => {
