@@ -25,7 +25,7 @@ where X is the number of the warmUp.
 
 ## Quick Visualization  
 
-![](https://res.cloudinary.com/dwtaamxgn/image/upload/v1605699509/test_g1wsze.gif)
+![](./test.gif)
 
 jest will run the tests for you and give you a result of the passing tests and the failing tests.
 
@@ -35,6 +35,8 @@ jest will run the tests for you and give you a result of the passing tests and t
 > abobker.elaghel@rbk.tn
 > Your feedback and input are highly appreciated and it is the only way to improve and fortify the quality of the product.
 > Sincerely,
-Abobker Elaghel 
-Tech Support.
+
+***Abobker Elaghel***
+
+****Tech Support.****
 
