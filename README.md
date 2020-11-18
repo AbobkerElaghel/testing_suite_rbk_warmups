@@ -3,10 +3,10 @@
 ### Intro
 This repo is for the technical team to expedite and speed up the grading process for the warmUps, also to unify the repo for the warmUps for all cohorts.
 
-### File-Strucutre 
+### File-Structure 
 ```
 .
-├── specialTests -> private file contains special tests
+├── specialTests -> private file containing special tests
 ├── tests -> test files for all the warmUps
 ├── warmUpsSolutions -> warmUp solutions
 ├── warmUpsStaff -> warmUps for the students
