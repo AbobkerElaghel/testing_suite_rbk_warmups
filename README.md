@@ -50,8 +50,8 @@ jest will run the tests for you and give you a result of the passing tests and t
 >***NOTE***: If you experienced any issue, or you have any type of feedback, please do send it to this email.  
 > abobker.elaghel@rbk.tn  
 > Your feedback and input are highly appreciated and it is the only way to improve and fortify the quality of the product.  
-> Sincerely,  
-  
+
+*** Sincerely***,  
 ***Abobker Elaghel***  
   
 ****Tech Support.****
