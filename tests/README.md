@@ -10,10 +10,10 @@
 
 # How to use
 
-1 - Clone the repo in your computer 
-2 - Install the dependencies using npm i
-3 - Copy the solution of the student to it's specified file in the warmUpStaff folder.
-4 - Navigate to the tests folder and run the specified test for that warmUp by running 
+1. Clone the repo in your computer 
+2. Install the dependencies using npm i
+3. Copy the solution of the student to it's specified file in the warmUpStaff folder.
+4. Navigate to the tests folder and run the specified test for that warmUp by running 
 ```sh
 jest warmUpXX.test.js 
 ```
