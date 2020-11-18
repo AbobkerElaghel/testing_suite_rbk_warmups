@@ -27,9 +27,11 @@ This repo is for the technical team to expedite and speed up the grading process
 >***NOTE***: Warm-Ups 1, 16, 24 have a wide context and are not locked to a specific result, Thus,  a test file can't be created for them, and they are best suitable to be tested manually.  
   
 # How to use  
-1. Clone the repo in your computer 2. Install the dependencies using npm i  
+1. Clone the repo in your computer.
+2. Install the dependencies using npm i.
 3. Copy the solution of the student to it's specified file in the warmUpStaff folder.  
-4. Navigate to the tests folder and run the specified test for that warmUp by running ```sh  
+4. Navigate to the tests folder and run the specified test for that warmUp by running.
+ ```sh  
 jest warmUpXX.test.js   
 ```  
 OR you can just Run  
