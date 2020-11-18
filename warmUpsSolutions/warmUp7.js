@@ -1,4 +1,3 @@
-//DONT FORGET TO REMOVE THE FUNCTIONS WHEN YOU FINISH, SOI THE STUDENTS CAN PRACTICE WRITING FUNCTION ON THIER OWN
 /**
  * 1 Write a function named helloWorld that:
  * takes 1 argument, a language code (e.g. "fr", "es", "en")
@@ -10,7 +9,6 @@
  * @param {string} str
  * @return {string}
  */
-//DONT FORGET TO REMOVE THE FUNCTIONS WHEN YOU FINISH, SOI THE STUDENTS CAN PRACTICE WRITING FUNCTION ON THEIR OWN
 
 function helloWorld(str){
     switch (str) {
@@ -36,7 +34,6 @@ function helloWorld(str){
  * @param {Array<number>} array
  * @return {Array<number>} result
  */
-//DONT FORGET TO REMOVE THE FUNCTIONS WHEN YOU FINISH, SOI THE STUDENTS CAN PRACTICE WRITING FUNCTION ON THEIR OWN
 function reverseArray(array){
     let result = [];
     for (let i = array.length - 1; i >= 0; i--) {
@@ -54,7 +51,6 @@ function reverseArray(array){
  * @param {number} n
  * @return {string} ha
  */
-//DONT FORGET TO REMOVE THE FUNCTIONS WHEN YOU FINISH, SOI THE STUDENTS CAN PRACTICE WRITING FUNCTION ON THEIR OWN
 function laugh(n) {
     let ha = '';
     for (let i = 0; i < n; i++) {

@@ -43,8 +43,6 @@ function first(array,n) {
 // **************** git status ****************
 // **************** git push origin master ****************
 
-//
-//
 
 /**
  * 3- Write a JavaScript function called (convert) to convert an object into a list of `[key, value]` pairs

@@ -6,6 +6,7 @@
  *    helloWorld('es') ==> 'Hola, Mundo'
  *    helloWorld('') ==> 'Hello, World'
  *
+ * @function helloWorld
  * @param {string} str
  * @return {string}
  */
@@ -15,6 +16,7 @@
  * 2 write a function to Reverse an array without use array.reverse() method:
  * ex: reverseArray([1,2,3]) ==> [3,2,1]
  *
+ * @function reverseArray
  * @param {Array<number>} array
  * @return {Array<number>}
  */
@@ -25,6 +27,7 @@
  * num that represents the number of "ha"s to return.
  * laugh(6); => "hahahahahaha"
  *
+ * @function laugh
  * @param {number} n
  * @return {string}
  */

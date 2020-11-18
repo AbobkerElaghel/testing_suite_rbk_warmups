@@ -61,7 +61,11 @@ function getRootProperty(object, val) {
 // if you really want to challenge you solution.
 // create an account in code wars (an amazing website for programming challenges and improving problem solving skills)
 // check this link right here. https://www.codewars.com/kata/598638d7f3a2c489b2000030/train/javascript
-// try to make you solution pass all the tests in the website by copying your solution to the solution textarea and pressing attempt
+// try to make your solution pass all the tests in the website by copying your solution to the solution textarea and pressing attempt.
+
+
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // ignore the below code // //
 module.exports = getRootProperty; //

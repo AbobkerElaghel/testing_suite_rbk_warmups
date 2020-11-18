@@ -1,10 +1,33 @@
 {
   "name": "testing_suite_rbk_warmups",
   "version": "1.0.0",
-  "description": "this repo contains all the tests to validate the warmups for the students, test are written js/jest",
-  "main": "index.js",
+  "description": "this repo contains all the tests to validate the warmUps for the students, test are written js/jest",
+  "main": "",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test2": "jest ./tests/warmUp2.test.js",
+    "test3": "jest ./tests/warmUp3.test.js",
+    "test4": "jest ./tests/warmUp4.test.js",
+    "test5": "jest ./tests/warmUp5.test.js",
+    "test6": "jest ./tests/warmUp6.test.js",
+    "test7": "jest ./tests/warmUp7.test.js",
+    "test8": "jest ./tests/warmUp8.test.js",
+    "test9": "jest ./tests/warmUp9.test.js",
+    "test10": "jest ./tests/warmUp10.test.js",
+    "test11": "jest ./tests/warmUp11.test.js",
+    "test12": "jest ./tests/warmUp12.test.js",
+    "test13": "jest ./tests/warmUp13.test.js",
+    "test14": "jest ./tests/warmUp14.test.js",
+    "test15": "jest ./tests/warmUp15.test.js",
+    "test17": "jest ./tests/warmUp17.test.js",
+    "test18": "jest ./tests/warmUp18.test.js",
+    "test19": "jest ./tests/warmUp19.test.js",
+    "test20": "jest ./tests/warmUp20.test.js",
+    "test21": "jest ./tests/warmUp21.test.js",
+    "test22": "jest ./tests/warmUp22.test.js",
+    "test23": "jest ./tests/warmUp23.test.js",
+    "test25": "jest ./tests/warmUp25.test.js"
+
   },
   "repository": {
     "type": "git",
