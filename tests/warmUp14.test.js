@@ -5,7 +5,7 @@ describe('function findAll', () => {
         expect(findAll).toBeDefined();
     });
 
-    test('should accept one parameters', () => {
+    test('should accept two parameters', () => {
         const numberOfArguments = findAll.length;
         expect(numberOfArguments).toBe(2);
     });

@@ -73,7 +73,7 @@ describe('function productOf3', () => {
 });
 
 describe('function multiply', () => {
-    test('should accept one parameters', () => {
+    test('should accept two parameters', () => {
         const numberOfArguments = multiply.length;
         expect(numberOfArguments).toBe(2);
     });
