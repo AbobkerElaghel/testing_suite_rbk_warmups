@@ -53,5 +53,3 @@ jest will run the tests for you and give you a result of the passing tests and t
 
 ***Sincerely***,  
 ***Abobker Elaghel***  
-  
-****Tech Support.****
