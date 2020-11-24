@@ -10,7 +10,7 @@
  * @return {string}
  */
 function greaterNum(x, y) {
-    return x > y ? `The greater number of ${x} and ${y} is ${x}.` : `The greater number of ${x} and ${y} is ${y}.`;
+   
 }
 
 
