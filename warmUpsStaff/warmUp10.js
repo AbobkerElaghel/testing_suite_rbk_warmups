@@ -18,9 +18,10 @@
  * @param {number} num2
  * @return {boolean|number}
  */
-function greatestCommonDivisor(num1, num2) {
+function greatestCommonDivisor(num1, num2){
 
 }
+
 // **************** git status ****************
 // **************** git add fileName.js ****************
 // **************** git status ****************
@@ -41,7 +42,8 @@ function greatestCommonDivisor(num1, num2) {
  * @param {number} y
  * @return {number}
  */
-function sum(x, y) {
+function sum(x,y){
+
 
 }
 

@@ -8,7 +8,7 @@
  * isArray(5)=>false
  *
  * @param {Array} array
- * @return{boolean}
+ * @return {boolean}
  */
 function isArray(array) {
 
